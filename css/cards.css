@@ -75,10 +75,10 @@
   margin-bottom: 10px;
 }
 
-.news_card .cta_btn {
+.news_card .openBtn {
   justify-self: center;
 }
-.cta_btn {
+.openBtn {
   display: inline-block;
   padding: 0.3rem 0.5rem;
   border: 1px solid var(--border-color);
@@ -92,17 +92,50 @@
 
 .openBtn {
   display: inline-block;
-  padding: 0.3rem 0.5rem;
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius);
-  background-color: var(--cta-background-color);
-  color: var(--followup-text-color);
+  padding: 0.5rem 0.5rem;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #7e0000;
+  background-color: var(--btn-bg-color);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  width: 90px;
+}
+
+.openBtn1 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: var(--btn2-border-color);
   text-align: center;
   text-decoration: none;
   width: max-content;
+  background-color: var(--btn2-bg-color);
+  color: white;
+  box-shadow: 2px 2px 5px rgb(45, 7, 7);
+}
+
+.openBtn1:hover {
+  color: #3e0e0e;
+  border: 2px solid;
+  border-color: #3e0e0e;
+  font-weight: bold;
+}
+
+.openBtn:hover {
+  color: #fff700;
+  border: 2px solid;
+  border-color: #7e0000;
+  font-weight: bold;
 }
 
 .cta_btn:after {
   content: "\2192";
   margin-left: 0.5rem;
+}
+
+.teaserImg1:hover {
+  border: 2px;
 }

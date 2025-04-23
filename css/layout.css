@@ -84,14 +84,14 @@ footer ul {
 fieldset {
   display: block;
   padding: 10px;
-  background-color: #555d5e;
+  background-color: var(--fieldset-bg-color);
   border: solid 1px;
   border-color: black;
   border-radius: 5px;
 }
 
-legend {
-  background-color: #596949;
+.reg1 {
+  background-color: var(--legend-bg-color);
   font-family: ralewaysemi;
   color: white;
   padding: 5px 15px;
@@ -99,6 +99,16 @@ legend {
   border-radius: 50px;
   width: 300px;
   text-align: left;
+}
+
+div #switchtext1 {
+  width: 70px;
+  font-family: ralewaysemi;
+  color: white;
+  margin-left: 200px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: x-small;
 }
 
 input {
@@ -179,4 +189,41 @@ input#phone:user-invalid + span::before {
 input#farlighed {
   width: 80%;
   margin: 20px;
+}
+
+#teaserImg2 {
+  filter: grayscale(50%);
+}
+
+#teaserImg2:hover {
+  transition: step-start 0.2s;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(0%);
+}
+
+#pan {
+  width: 400px;
+  height: 300px;
+  background-image: url(/img/klovneninfo.webp);
+  background-repeat: no-repeat;
+  background-size: 250% auto;
+  background-position: 0 0;
+}
+
+.pan_animation {
+  animation: panorama 8s linear infinite alternate;
+  animation-play-state: paused;
+}
+
+.pan_animation.running {
+  animation-play-state: running;
+}
+
+@keyframes panorama {
+  0% {
+    background-position: 0% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
 }

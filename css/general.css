@@ -19,8 +19,8 @@ ul,
 }
 
 @font-face {
-  font-family: creepster;
-  src: url(/fonts/Creepster-Regular.ttf);
+  font-family: jolly;
+  src: url(/fonts/JollyLodger-Regular.ttf);
 }
 
 @font-face {
@@ -57,8 +57,6 @@ footer {
 header {
   background-color: var(--menu-background-color);
   color: var(--menu-background-color);
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 .logo-wrapper {
@@ -75,8 +73,16 @@ header {
 }
 #main-disclamer-content {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   column-gap: 1rem;
-  color: #ffff;
+  color: var(--main-disclaimer-content);
+  line-height: 1rem;
+}
+
+#main-disclamer-content h1 {
+  font-size: xx-large;
+  line-height: 1.5rem;
 }
 main section {
   padding: 20px;
@@ -120,6 +126,7 @@ header > nav {
 }
 nav ul {
   list-style: none;
+  margin-left: 100px;
 }
 nav a {
   font-family: var(--link-font);
@@ -148,11 +155,18 @@ a {
 }
 
 .overskrift {
+  margin-left: 20px;
+  max-width: 200px;
+}
+
+.overskrift2 {
+  margin-left: 200px;
   max-width: 200px;
 }
 
 header nav li a {
-  margin: 1.5rem;
+  display: flex;
+  margin: 20px;
   background-color: var(--followup-text-bg-color);
   color: var(--followup-text-color);
   font-size: var(--followup-text-size);
@@ -187,4 +201,43 @@ footer a {
 }
 .green {
   background-color: var(--info-bg-color-green);
+}
+
+/* SLIDER DARK MODE */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 28px;
+  margin-left: 200px;
+  margin-bottom: 2px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  width: 80px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d7d7d7;
+  border-radius: 34px;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 3px;
+  background: black;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider::before {
+  translate: 230% 0;
 }

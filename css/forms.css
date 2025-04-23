@@ -43,3 +43,51 @@
   white-space: nowrap;
   margin: 0;
 }
+
+#dialog-1,
+#dialog-2,
+#dialog-3 {
+  width: 800px;
+  padding: 10px;
+}
+
+#dialog-1 h2,
+#dialog-2 h2,
+#dialog-3 h2 {
+  text-align: center;
+}
+
+dialog {
+  margin: 10px auto;
+  background-color: var(--dialog-bg-color);
+  color: var(--primary-font-color);
+}
+
+.dialogen1 {
+  margin-left: 20%;
+  font-size: small;
+}
+
+.dialogen2 {
+  margin-left: 20%;
+  font-size: small;
+}
+
+#closeBtn {
+  margin-left: 10px;
+  background-color: #a43000;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 30px 10px;
+  border: solid 1px;
+  border-color: #8c0000;
+  border-radius: 10px;
+}
+
+.underrubrik {
+  font-style: italic;
+}
+
+.liste {
+  list-style: none;
+}
