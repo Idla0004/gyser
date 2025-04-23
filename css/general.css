@@ -20,27 +20,27 @@ ul,
 
 @font-face {
   font-family: jolly;
-  src: url(/fonts/JollyLodger-Regular.ttf);
+  src: url(fonts/JollyLodger-Regular.ttf);
 }
 
 @font-face {
   font-family: nosifer;
-  src: url(/fonts/Nosifer-Regular.ttf);
+  src: url(fonts/Nosifer-Regular.ttf);
 }
 
 @font-face {
   font-family: ralewayreg;
-  src: url(/fonts/Raleway-Regular.ttf);
+  src: url(fonts/Raleway-Regular.ttf);
 }
 
 @font-face {
   font-family: ralewaybold;
-  src: url(/fonts/Raleway-Bold.ttf);
+  src: url(fonts/Raleway-Bold.ttf);
 }
 
 @font-face {
   font-family: ralewaysemi;
-  src: url(/fonts/Raleway-Medium.ttf);
+  src: url(fonts/Raleway-Medium.ttf);
 }
 
 body {
