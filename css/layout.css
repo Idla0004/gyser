@@ -103,7 +103,7 @@ fieldset {
 
 div #switchtext1 {
   width: 70px;
-  font-family: ralewaysemi;
+  font-family: Monreg;
   color: white;
   margin-left: 200px;
   margin-bottom: 10px;
@@ -140,8 +140,8 @@ input {
 }
 
 label {
-  font-family: ralewayreg;
-  font-size: 1rem;
+  font-family: Monreg;
+  font-size: 16px;
 }
 
 input:hover {
@@ -204,7 +204,7 @@ input#farlighed {
 #pan {
   width: 400px;
   height: 300px;
-  background-image: url(img/klovneninfo.webp);
+  background-image: url(/img/klovneninfo.webp);
   background-repeat: no-repeat;
   background-size: 250% auto;
   background-position: 0 0;

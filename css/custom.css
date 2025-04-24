@@ -24,11 +24,11 @@
   /* From styletile */
 
   /* Fonts */
-  --logotype-font: creepster;
-  --headline-font: ralewaybold;
-  --body-font: ralewayreg;
-  --link-font: ralewayreg;
-  --default-font: ralewayreg;
+  --logotype-font: Monreg;
+  --headline-font: Monsemi;
+  --body-font: Quickreg;
+  --link-font: Quickreg;
+  --default-font: Monreg;
 
   /* Text sizes */
   --logotype-size: 3rem;
