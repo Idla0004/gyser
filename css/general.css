@@ -21,28 +21,28 @@ ul,
 @font-face {
   font-family: jolly;
   src:
-    url(/fonts/JollyLodger-Regular.ttf),
+    url(fonts/JollyLodger-Regular.ttf),
     format("truetype");
 }
 
 @font-face {
   font-family: monreg;
-  src: url(/fonts/Montserrat-Regular.ttf);
+  src: url(fonts/Montserrat-Regular.ttf);
 }
 
 @font-face {
   font-family: quickbold;
-  src: url(/fonts/Quicksand-Bold.ttf);
+  src: url(fonts/Quicksand-Bold.ttf);
 }
 
 @font-face {
   font-family: monsemi;
-  src: url(/fonts/Montserrat-SemiBold.ttf);
+  src: url(fonts/Montserrat-SemiBold.ttf);
 }
 
 @font-face {
   font-family: quickreg;
-  src: url(/fonts/Quicksand-Regular.ttf);
+  src: url(fonts/Quicksand-Regular.ttf);
 }
 
 body {
