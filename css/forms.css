@@ -46,15 +46,22 @@
 
 #dialog-1,
 #dialog-2,
-#dialog-3 {
+#dialog-3,
+#dialog-4 {
   width: 800px;
   padding: 10px;
 }
 
 #dialog-1 h2,
 #dialog-2 h2,
-#dialog-3 h2 {
+#dialog-3 h2,
+#dialog-4 h2 {
   text-align: center;
+}
+
+#dialog-4 h2 {
+  background-color: red;
+  color: white;
 }
 
 dialog {
@@ -73,7 +80,7 @@ dialog {
   font-size: small;
 }
 
-#closeBtn {
+.closeBtn {
   margin-left: 10px;
   background-color: #a43000;
   font-weight: bold;
@@ -82,6 +89,7 @@ dialog {
   border: solid 1px;
   border-color: #8c0000;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .underrubrik {

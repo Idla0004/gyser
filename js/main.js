@@ -258,7 +258,7 @@ if (pan) {
 function setupArticle(article) {
   const openBtn = article.querySelector(".openBtn");
   const dialog = article.querySelector("dialog");
-  const closeBtn = dialog.querySelector("#closeBtn");
+  const closeBtn = dialog.querySelector(".closeBtn");
 
   openBtn.addEventListener("click", function (event) {
     event.preventDefault();

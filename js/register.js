@@ -88,3 +88,21 @@ function reset() {
   document.querySelector("#webform").reset();
   document.querySelector("#sum").style.display = "none";
 }
+
+// DARK MODE //
+
+const css = document.querySelector("#lightmode");
+
+const btn3 = document.querySelector("#changeBtn3");
+btn3.addEventListener("click", changeMode3);
+const switchtext3 = document.querySelector("#switchtext1");
+
+function changeMode3() {
+  if (css.href.includes("css/dark.css")) {
+    css.href = "css/custom.css";
+    switchtext3.textContent = "Dark Mode";
+  } else {
+    css.href = "css/dark.css";
+    switchtext3.textContent = "Light Mode";
+  }
+}

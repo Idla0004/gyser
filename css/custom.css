@@ -1,6 +1,6 @@
 :root {
   /* Colours */
-  --primary-bg-color: D9D9D9; /* used */
+  --primary-bg-color: #888888; /* used */
   --primary-font-color: #000000; /* used */
 
   --secondary-bg-color: #5d656c; /* used */
@@ -24,11 +24,11 @@
   /* From styletile */
 
   /* Fonts */
-  --logotype-font: Monreg;
-  --headline-font: Monsemi;
-  --body-font: Quickreg;
-  --link-font: Quickreg;
-  --default-font: Monreg;
+  --logotype-font: monreg;
+  --headline-font: monsemi;
+  --body-font: quickreg;
+  --link-font: quickreg;
+  --default-font: monreg;
 
   /* Text sizes */
   --logotype-size: 3rem;
@@ -61,7 +61,7 @@
   --header-background-color: #382f21;
   --article-background-color: #97a84e;
   --news-background-color: #dbdde3;
-  --news-background-color-inverted: #6e6250;
+  --news-background-color-inverted: #8d7e68;
   --info-background-color: #6e6250;
   --headline-bg-color: #03342e;
   --headline-bg-color-alert: #97a84e;

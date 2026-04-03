@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/infographic.css" />
+    <link rel="icon" type="image/x-icon" href="img/runner.png" />
     <title>Emergency Site</title>
   </head>
-  <link rel="icon" type="image/x-icon" href="img/runner.png" />
   <body id="instruction">
     <header>
       <nav>
@@ -26,7 +26,7 @@
           </ul>
         </div>
         <div id="switchtext3">
-          <legend id="switchtext1">Dark Mode</legend>
+          <div id="switchtext1">Dark Mode</div>
           <label class="switch">
             <input id="changeBtn3" type="checkbox" />
             <span class="slider"></span>
@@ -34,11 +34,9 @@
         </div>
       </nav>
     </header>
-
     <main>
       <h1>OVERLEV I EN GYSERFILM</h1>
       <section class="info-graphic">
-        <?xml version="1.0" encoding="UTF-8"?>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="158mm"
@@ -140,8 +138,8 @@
               <feOffset dx="2.83" dy="0" />
               <feGaussianBlur result="blur" stdDeviation="5.67" />
               <feFlood flood-color="#000" flood-opacity=".5" />
-              <feComposite in2="blur" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-1" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-1" operator="over" />
             </filter>
             <radialGradient
               id="radial-gradient-4"
@@ -169,8 +167,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-2" stdDeviation="2.83" />
               <feFlood flood-color="#000" flood-opacity=".5" />
-              <feComposite in2="blur-2" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-2" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-2" operator="over" />
             </filter>
             <linearGradient
               id="linear-gradient-4"
@@ -194,8 +192,8 @@
               <feOffset dx="0" dy="2.83" />
               <feGaussianBlur result="blur-3" stdDeviation="5.67" />
               <feFlood flood-color="#301111" flood-opacity=".6" />
-              <feComposite in2="blur-3" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-3" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-3" operator="over" />
             </filter>
             <filter
               id="drop-shadow-4"
@@ -208,8 +206,8 @@
               <feOffset dx="2.83" dy="2.83" />
               <feGaussianBlur result="blur-4" stdDeviation="2.83" />
               <feFlood flood-color="#231f20" flood-opacity=".5" />
-              <feComposite in2="blur-4" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-4" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-4" operator="atop" />
             </filter>
             <filter
               id="drop-shadow-5"
@@ -222,8 +220,8 @@
               <feOffset dx="2.83" dy="2.83" />
               <feGaussianBlur result="blur-5" stdDeviation="2.83" />
               <feFlood flood-color="#231f20" flood-opacity=".5" />
-              <feComposite in2="blur-5" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-5" in="SourceGraphic" operator="over" />
+              <feComposite in="SourceGraphic" in2="blur-5" operator="in" />
             </filter>
             <filter
               id="drop-shadow-6"
@@ -236,8 +234,8 @@
               <feOffset dx="2.83" dy="2.83" />
               <feGaussianBlur result="blur-6" stdDeviation="5.67" />
               <feFlood flood-color="#fff" flood-opacity="1" />
-              <feComposite in2="blur-6" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-6" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-6" operator="over" />
             </filter>
             <filter
               id="drop-shadow-7"
@@ -250,8 +248,8 @@
               <feOffset dx="2.83" dy="2.83" />
               <feGaussianBlur result="blur-7" stdDeviation="2.83" />
               <feFlood flood-color="#231f20" flood-opacity=".5" />
-              <feComposite in2="blur-7" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-7" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-7" operator="over" />
             </filter>
             <filter
               id="drop-shadow-8"
@@ -264,8 +262,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-8" stdDeviation="5.67" />
               <feFlood flood-color="#e2e2e2" flood-opacity=".6" />
-              <feComposite in2="blur-8" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-8" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-8" operator="over" />
             </filter>
             <filter
               id="drop-shadow-9"
@@ -278,8 +276,8 @@
               <feOffset dx="2.83" dy="0" />
               <feGaussianBlur result="blur-9" stdDeviation="8.5" />
               <feFlood flood-color="#e8e8e8" flood-opacity="1" />
-              <feComposite in2="blur-9" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-9" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-9" operator="over" />
             </filter>
             <filter
               id="drop-shadow-10"
@@ -292,8 +290,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-10" stdDeviation="5.67" />
               <feFlood flood-color="#e2e2e2" flood-opacity=".6" />
-              <feComposite in2="blur-10" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-10" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-10" operator="over" />
             </filter>
             <filter
               id="drop-shadow-11"
@@ -306,8 +304,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-11" stdDeviation="5.67" />
               <feFlood flood-color="#e2e2e2" flood-opacity=".6" />
-              <feComposite in2="blur-11" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-11" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-11" operator="over" />
             </filter>
             <filter
               id="drop-shadow-12"
@@ -320,8 +318,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-12" stdDeviation="5.67" />
               <feFlood flood-color="#e2e2e2" flood-opacity=".6" />
-              <feComposite in2="blur-12" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-12" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-12" operator="over" />
             </filter>
             <filter
               id="drop-shadow-13"
@@ -334,8 +332,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-13" stdDeviation="5.67" />
               <feFlood flood-color="#e2e2e2" flood-opacity=".6" />
-              <feComposite in2="blur-13" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-13" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-13" operator="over" />
             </filter>
             <filter
               id="drop-shadow-14"
@@ -348,8 +346,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-14" stdDeviation="5.67" />
               <feFlood flood-color="#e2e2e2" flood-opacity=".6" />
-              <feComposite in2="blur-14" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-14" in="SourceGraphic" operator="atop" />
+              <feComposite in="SourceGraphic" in2="blur-14" operator="over" />
             </filter>
             <filter
               id="drop-shadow-15"
@@ -362,8 +360,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-15" stdDeviation="5.67" />
               <feFlood flood-color="#e2e2e2" flood-opacity=".6" />
-              <feComposite in2="blur-15" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-15" in="SourceGraphic" operator="atop" />
+              <feComposite in="SourceGraphic" in2="blur-15" operator="over" />
             </filter>
             <filter
               id="drop-shadow-16"
@@ -376,8 +374,8 @@
               <feOffset dx="2.83" dy="0" />
               <feGaussianBlur result="blur-16" stdDeviation="8.5" />
               <feFlood flood-color="#e8e8e8" flood-opacity="1" />
-              <feComposite in2="blur-16" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-16" in="SourceGraphic" operator="atop" />
+              <feComposite in="SourceGraphic" in2="blur-16" operator="over" />
             </filter>
             <radialGradient
               id="radial-gradient-5"
@@ -409,8 +407,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-17" stdDeviation="5.67" />
               <feFlood flood-color="#e2e2e2" flood-opacity=".6" />
-              <feComposite in2="blur-17" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-17" in="SourceGraphic" operator="atop" />
+              <feComposite in="SourceGraphic" in2="blur-17" operator="over" />
             </filter>
             <filter
               id="drop-shadow-18"
@@ -423,8 +421,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-18" stdDeviation="5.67" />
               <feFlood flood-color="#e2e2e2" flood-opacity=".6" />
-              <feComposite in2="blur-18" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-18" in="SourceGraphic" operator="atop" />
+              <feComposite in="SourceGraphic" in2="blur-18" operator="in" />
             </filter>
             <filter
               id="drop-shadow-19"
@@ -437,8 +435,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-19" stdDeviation="5.67" />
               <feFlood flood-color="#e2e2e2" flood-opacity=".6" />
-              <feComposite in2="blur-19" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-19" in="SourceGraphic" operator="atop" />
+              <feComposite in="SourceGraphic" in2="blur-19" operator="over" />
             </filter>
             <filter
               id="drop-shadow-20"
@@ -451,8 +449,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-20" stdDeviation="5.67" />
               <feFlood flood-color="#e2e2e2" flood-opacity=".6" />
-              <feComposite in2="blur-20" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-20" in="SourceGraphic" operator="atop" />
+              <feComposite in="SourceGraphic" in2="blur-20" operator="over" />
             </filter>
             <filter
               id="drop-shadow-21"
@@ -465,8 +463,8 @@
               <feOffset dx="0" dy="0" />
               <feGaussianBlur result="blur-21" stdDeviation="5.67" />
               <feFlood flood-color="#e2e2e2" flood-opacity=".6" />
-              <feComposite in2="blur-21" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-21" in="SourceGraphic" operator="atop" />
+              <feComposite in="SourceGraphic" in2="blur-21" operator="over" />
             </filter>
             <linearGradient
               id="linear-gradient-5"
@@ -497,8 +495,8 @@
               <feOffset dx="8.5" dy="7" />
               <feGaussianBlur result="blur-22" stdDeviation="2.83" />
               <feFlood flood-color="#231f20" flood-opacity=".9" />
-              <feComposite in2="blur-22" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-22" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-22" operator="over" />
             </filter>
             <linearGradient
               id="linear-gradient-6"
@@ -524,8 +522,8 @@
               <feOffset dx="-2.83" dy="19.84" />
               <feGaussianBlur result="blur-23" stdDeviation="5.67" />
               <feFlood flood-color="#231f20" flood-opacity=".9" />
-              <feComposite in2="blur-23" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-23" in="SourceGraphic" operator="out" />
+              <feComposite in="SourceGraphic" in2="blur-23" operator="over" />
             </filter>
             <linearGradient
               id="linear-gradient-7"
@@ -551,8 +549,8 @@
               <feOffset dx="7" dy="7" />
               <feGaussianBlur result="blur-24" stdDeviation="5" />
               <feFlood flood-color="#231f20" flood-opacity=".75" />
-              <feComposite in2="blur-24" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-24" in="SourceGraphic" operator="atop" />
+              <feComposite in="SourceGraphic" in2="blur-24" operator="over" />
             </filter>
             <linearGradient
               id="linear-gradient-8"
@@ -581,8 +579,8 @@
               <feOffset dx="7" dy="7" />
               <feGaussianBlur result="blur-25" stdDeviation="5" />
               <feFlood flood-color="#231f20" flood-opacity=".75" />
-              <feComposite in2="blur-25" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-25" in="SourceGraphic" operator="atop" />
+              <feComposite in="SourceGraphic" in2="blur-25" operator="over" />
             </filter>
             <linearGradient
               id="linear-gradient-9"
@@ -613,8 +611,8 @@
               <feOffset dx="7" dy="7" />
               <feGaussianBlur result="blur-26" stdDeviation="5" />
               <feFlood flood-color="#231f20" flood-opacity=".75" />
-              <feComposite in2="blur-26" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-26" in="SourceGraphic" operator="over" />
+              <feComposite in="SourceGraphic" in2="blur-26" operator="atop" />
             </filter>
             <linearGradient
               id="linear-gradient-10"
@@ -640,8 +638,8 @@
               <feOffset dx="2.83" dy="2.83" />
               <feGaussianBlur result="blur-27" stdDeviation="2.83" />
               <feFlood flood-color="#231f20" flood-opacity=".9" />
-              <feComposite in2="blur-27" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-27" in="SourceGraphic" operator="over" />
+              <feComposite in="SourceGraphic" in2="blur-27" operator="in" />
             </filter>
             <radialGradient
               id="radial-gradient-6"
@@ -668,8 +666,8 @@
               <feOffset dx="0" dy="5.67" />
               <feGaussianBlur result="blur-28" stdDeviation="2.83" />
               <feFlood flood-color="#231f20" flood-opacity=".9" />
-              <feComposite in2="blur-28" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-28" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-28" operator="over" />
             </filter>
             <linearGradient
               id="linear-gradient-11"
@@ -694,8 +692,8 @@
               <feOffset dx="-2.83" dy="0" />
               <feGaussianBlur result="blur-29" stdDeviation="2.83" />
               <feFlood flood-color="#231f20" flood-opacity=".9" />
-              <feComposite in2="blur-29" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-29" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-29" operator="over" />
             </filter>
             <filter
               id="drop-shadow-30"
@@ -708,8 +706,8 @@
               <feOffset dx="0" dy="2.83" />
               <feGaussianBlur result="blur-30" stdDeviation="2.83" />
               <feFlood flood-color="#231f20" flood-opacity=".9" />
-              <feComposite in2="blur-30" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-30" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-30" operator="over" />
             </filter>
             <linearGradient
               id="linear-gradient-12"
@@ -730,8 +728,8 @@
               <feOffset dx="2.83" dy="5.67" />
               <feGaussianBlur result="blur-31" stdDeviation="2.83" />
               <feFlood flood-color="#231f20" flood-opacity=".9" />
-              <feComposite in2="blur-31" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-31" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-31" operator="over" />
             </filter>
             <linearGradient
               id="linear-gradient-13"
@@ -752,8 +750,8 @@
               <feOffset dx="5.67" dy="2.83" />
               <feGaussianBlur result="blur-32" stdDeviation="2.83" />
               <feFlood flood-color="#231f20" flood-opacity=".9" />
-              <feComposite in2="blur-32" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-32" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-32" operator="over" />
             </filter>
             <linearGradient
               id="linear-gradient-14"
@@ -783,8 +781,8 @@
               <feOffset dx="0" dy="2.83" />
               <feGaussianBlur result="blur-33" stdDeviation="2.83" />
               <feFlood flood-color="#231f20" flood-opacity=".9" />
-              <feComposite in2="blur-33" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-33" in="SourceGraphic" operator="over" />
+              <feComposite in="SourceGraphic" in2="blur-33" operator="in" />
             </filter>
             <linearGradient
               id="linear-gradient-15"
@@ -813,8 +811,8 @@
               <feOffset dx="0" dy="2.83" />
               <feGaussianBlur result="blur-34" stdDeviation="5.67" />
               <feFlood flood-color="#392f16" flood-opacity="1" />
-              <feComposite in2="blur-34" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-34" in="SourceGraphic" operator="in" />
+              <feComposite in="SourceGraphic" in2="blur-34" operator="over" />
             </filter>
             <filter
               id="drop-shadow-35"
@@ -827,8 +825,8 @@
               <feOffset dx="0" dy="2.83" />
               <feGaussianBlur result="blur-35" stdDeviation="2.83" />
               <feFlood flood-color="#392f16" flood-opacity="1" />
-              <feComposite in2="blur-35" operator="in" />
-              <feComposite in="SourceGraphic" />
+              <feComposite in2="blur-35" in="SourceGraphic" operator="over" />
+              <feComposite in="SourceGraphic" in2="blur-35" operator="in" />
             </filter>
           </defs>
           <g style="isolation: isolate">
@@ -890,13 +888,6 @@
               />
               <g id="Layer_11" data-name="Layer 11">
                 <g>
-                  <image
-                    width="974"
-                    height="307"
-                    transform="translate(222.14 593) scale(.24)"
-                    xlink:href="Klovnen1-1.png"
-                    style="opacity: 0.6"
-                  />
                   <path
                     d="M339.62,657.26c-3.37,1.14-4.57-1.5-2.12-4.28,2-2.77,7.66-5.68,7.63-4.96,1.65,8.6,18.28,14.26,9.11,11.79-2.98-.75,2.27-1.02,4.76-4.03,2.93-2.99,3.11-8.71.24-20.07,2.18-13.83-12.58-.24-21.86-.07-8.56.19-3.15-7.46,8.9-17.04,11.25-9.64-3.56-14.83-17.82-12.14-18.08,2.85-11.7,9.64-10.6,16.66,2.51,6.99-.27,14.2-4.07,17.18-8.55,5.93-15.56,5.23-13.92,12.25,5.51,1.53,19.56,3.1,39.75,4.71Z"
                     style="fill: #534c39"
@@ -1477,16 +1468,8 @@
                   width="348"
                   height="343"
                   transform="translate(258.03 -11.73) scale(.24)"
-                  xlink:href="Klovnen1-2.png"
                 />
                 <g>
-                  <image
-                    width="218"
-                    height="194"
-                    transform="translate(273.74 16.7) scale(.24)"
-                    xlink:href="Klovnen1-3.png"
-                    style="mix-blend-mode: multiply"
-                  />
                   <g>
                     <g style="mix-blend-mode: screen; opacity: 0.1">
                       <ellipse
